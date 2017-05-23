@@ -1,8 +1,25 @@
-#bg_img-content {
+/**#bg_img-content {
 	background: url("homeBackground.jpg") no-repeat right center;
 	width: 1200px;
 	height: 989px; 
 	position: relative;
+}**/
+
+body, html {
+	height: 100%;
+}
+
+.bg {
+	/* The image used */
+    background-image: url("homeBackground.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #header-nav {
@@ -53,7 +70,7 @@ a:hover, a:active {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     opacity: 1;
 }
